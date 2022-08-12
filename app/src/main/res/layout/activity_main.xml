@@ -10,12 +10,11 @@
         android:id="@+id/btn_insert"
         android:layout_width="161dp"
         android:layout_height="64dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="200dp"
         android:text="insert"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -28,10 +27,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_insert"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.767" />
+        app:layout_constraintVertical_bias="0.62" />
 
     <TextView
         android:id="@+id/textView3"
@@ -45,4 +44,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
